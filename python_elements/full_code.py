@@ -9,7 +9,6 @@ st.set_page_config(
     layout="wide"
 )
 
-
 # Загрузка данных из файла Excel
 @st.cache_resource
 def get_data_from_excel():
