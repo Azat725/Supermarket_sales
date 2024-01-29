@@ -28,7 +28,7 @@ def get_data_from_excel():
 # Получаем данные
 df = get_data_from_excel()
 
-# Фильтры в боковой панели
+# Фильтры
 st.sidebar.header("Filter here:")
 city = st.sidebar.multiselect("Select the city", options=df["City"].unique(), default=df["City"].unique())
 customer = st.sidebar.multiselect("Select the customer", options=df["Customer_type"].unique(), default=df["Customer_type"].unique())
