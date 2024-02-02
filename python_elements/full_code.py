@@ -1,6 +1,7 @@
 import pandas as pd 
 import streamlit as st
 import plotly.express as px
+import openpyxl
 
 # Устанавливаем конфигурацию страницы
 st.set_page_config(
