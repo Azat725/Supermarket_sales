@@ -13,10 +13,10 @@ st.set_page_config(
 # Загрузка данных из файла Excel
 @st.cache_resource
 def get_data_from_excel():
-    file_path = r"C:\Users\Ildar\Desktop\Azat\programming\Python\Supermarket_sales\other_elements\Supermarket_sales.xlsx"
+    # file_path = r"C:\Users\Ildar\Desktop\Azat\programming\Python\Supermarket_sales\other_elements\Supermarket_sales.xlsx"
 
     df = pd.read_excel(
-        io=file_path,
+        io=r"C:\Users\Ildar\Desktop\Azat\programming\Python\Supermarket_sales\other_elements\Supermarket_sales.xlsx",
         engine="openpyxl",
         sheet_name="Лист1",
         usecols="B:R",
