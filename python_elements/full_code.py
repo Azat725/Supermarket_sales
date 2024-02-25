@@ -1,4 +1,3 @@
-import openpyxl
 import pandas as pd  # Импорт библиотеки pandas для работы с данными
 import streamlit as st  # Импорт библиотеки Streamlit для создания веб-приложений
 import plotly.express as px  # Импорт библиотеки Plotly Express для создания интерактивных графиков
