@@ -113,6 +113,3 @@ fig_hourly_sales.update_layout(
 )
 
 st.plotly_chart(fig_hourly_sales, use_container_width=True)  # Отображение столбчатой диаграммы продаж по часам
-
-# fig_hourly_sales.update_layout(xaxis=dict(tickmode="linear"), plot_bgcolor="rgba(0,0,0,0)", yaxis=dict(showgrid=False))  # Настройка макета диаграммы
-# st.plotly_chart(fig_hourly_sales, use_container_width=True)  # Отображение столбчатой диаграммы продаж по часам
